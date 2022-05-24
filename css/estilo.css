@@ -94,12 +94,6 @@ html, body {
   margin-top: 20px; }
 
 /*FOOTER*/
-@media screen and (max-width: 600px) {
-  footer {
-    display: block;
-    float: none;
-    width: 100%; } }
-
 footer {
   margin-top: 100px; }
 
@@ -111,7 +105,8 @@ footer {
   footer p, footer a, footer h2, footer i {
     color: white; }
   footer .main-cajonete {
-    display: flex; }
+    display: flex;
+    flex-direction: row; }
     footer .main-cajonete .izquierda .cajon .parrafoo {
       text-align: justify; }
     footer .main-cajonete .izquierda .cajon .social {
@@ -149,4 +144,8 @@ footer {
         width: 15%;
         background: #2196f3; }
 
-/*ERROR 404*/
+@media screen and (max-width: 768px) {
+  .main-cajonete {
+    display: flex;
+    flex-direction: column;
+    width: 100%; } }

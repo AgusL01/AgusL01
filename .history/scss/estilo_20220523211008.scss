@@ -109,7 +109,13 @@ html, body {
 }
 
 /*FOOTER*/
-
+@media screen and (max-width: 600px){
+    footer{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    background-color: aqua;
+}
 footer{
     margin-top: 100px;
 }
@@ -173,11 +179,5 @@ footer{
         }
     }
 }
-}
-@media screen and (max-width: 768px){
-    .main-cajonete{
-    display: flex;
-    flex-direction: column;
-    width: 100%;
 }
 }

@@ -174,10 +174,11 @@ footer{
     }
 }
 }
-@media screen and (max-width: 768px){
-    .main-cajonete{
+@media screen and (max-width: 600px){
+    footer{
     display: flex;
     flex-direction: column;
     width: 100%;
+    background-color: aqua;
 }
 }
