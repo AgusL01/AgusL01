@@ -73,7 +73,8 @@ html, body {
   width: 100%;
   overflow-x: hidden;
   overflow-y: auto;
-  background-image: url(../imagenes/fondopaginahilso.jpg); }
+  background-image: url(../imagenes/fondopaginahilso.jpg);
+}
 
 /*HOME*/
 .bienvenida {
@@ -105,7 +106,8 @@ footer {
   footer p, footer a, footer h2, footer i {
     color: white; }
   footer .main-cajonete {
-    display: flex; }
+    display: flex;
+    flex-direction: row; }
     footer .main-cajonete .izquierda .cajon .parrafoo {
       text-align: justify; }
     footer .main-cajonete .izquierda .cajon .social {
@@ -144,7 +146,7 @@ footer {
         background: #2196f3; }
 
 @media screen and (max-width: 768px) {
-  .main-cajonete {
+  .footer {
     display: flex;
     flex-direction: column;
     width: 100%; } }

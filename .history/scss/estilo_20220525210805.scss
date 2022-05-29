@@ -109,13 +109,7 @@ html, body {
 }
 
 /*FOOTER*/
-@media screen and (max-width: 600px){
-    footer{
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-    }
-}
+
 footer{
     margin-top: 100px;
 }
@@ -129,8 +123,6 @@ footer{
         color: white;
     }
     .main-cajonete{
-        display: flex;
-        flex-direction: row;
         .izquierda .cajon{
             .parrafoo{
                 text-align: justify;
@@ -180,6 +172,18 @@ footer{
     }
 }
 }
-
-/*ERROR 404*/
+@media screen and (max-width: 1980px){
+    .main-cajonete{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+}
+@media screen and (max-width: 768px){
+    .main-cajonete{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+}
 

@@ -124,7 +124,7 @@ footer{
     }
     .main-cajonete{
         display: flex;
-        flex-direction: row;
+        flex-direction: column;
         .izquierda .cajon{
             .parrafoo{
                 text-align: justify;
@@ -174,10 +174,10 @@ footer{
     }
 }
 }
-@media screen and (max-width: 768px){
-    footer{
+@media screen and (min-width: 1980px){
+    .footer{
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     width: 100%;
-}
-}
+    }
+    }

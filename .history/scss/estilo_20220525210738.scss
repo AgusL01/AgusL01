@@ -123,8 +123,6 @@ footer{
         color: white;
     }
     .main-cajonete{
-        display: flex;
-        flex-direction: row;
         .izquierda .cajon{
             .parrafoo{
                 text-align: justify;
@@ -174,11 +172,18 @@ footer{
     }
 }
 }
-@media screen and (max-width: 600px){
-    footer{
+@media screen and (max-width: 1980px){
+    .main-cajonete{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+}
+@media screen and (max-width: 768px){
+    .main-cajonete{
     display: flex;
     flex-direction: column;
     width: 100%;
-    background-color: aqua;
 }
 }
+

@@ -123,7 +123,8 @@ footer{
         color: white;
     }
     .main-cajonete{
-        display: flex;
+        display: grid;
+        grid-template-rows: max-content;
         .izquierda .cajon{
             .parrafoo{
                 text-align: justify;
@@ -173,10 +174,10 @@ footer{
     }
 }
 }
-@media screen and (max-width: 768px){
+@media screen and (mix-width: 768px){
     .main-cajonete{
-    display: flex;
-    flex-direction: column;
+    display: grid;
+    grid-template-columns: max-content;
     width: 100%;
     }
     }

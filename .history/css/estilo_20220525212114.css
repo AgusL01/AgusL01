@@ -105,7 +105,8 @@ footer {
   footer p, footer a, footer h2, footer i {
     color: white; }
   footer .main-cajonete {
-    display: flex; }
+    display: flex;
+    flex-direction: row; }
     footer .main-cajonete .izquierda .cajon .parrafoo {
       text-align: justify; }
     footer .main-cajonete .izquierda .cajon .social {
@@ -147,4 +148,6 @@ footer {
   .main-cajonete {
     display: flex;
     flex-direction: column;
-    width: 100%; } }
+    width: 100%;
+  }
+}

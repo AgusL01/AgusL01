@@ -174,10 +174,19 @@ footer{
     }
 }
 }
-@media screen and (max-width: 768px){
+
+@media screen and (max-width:768px){
     .main-cajonete{
     display: flex;
     flex-direction: column;
     width: 100%;
 }
 }
+
+@media screen and (max-width: 768px){
+    .footer{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    }
+    }

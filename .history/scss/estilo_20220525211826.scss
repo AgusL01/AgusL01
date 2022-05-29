@@ -109,14 +109,7 @@ html, body {
 }
 
 /*FOOTER*/
-@media screen and (max-width: 600px){
-    footer{
-    display: flex;
-    flex-direction: column;
-    float: none;
-    width: 100%;
-    }
-}
+
 footer{
     margin-top: 100px;
 }
@@ -182,5 +175,11 @@ footer{
 }
 }
 
-/*ERROR 404*/
+@media screen and (min-width:768px){
+    .main-cajonete{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+}
 
